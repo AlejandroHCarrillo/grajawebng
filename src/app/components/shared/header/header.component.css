@@ -1,0 +1,13 @@
+p.sub-title {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.header {
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-block-end-style: solid;
+  }
+  

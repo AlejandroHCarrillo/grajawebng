@@ -1,0 +1,7 @@
+div.page-nav {
+    /*background-color: #800000;*/ 
+    line-height: 1.2rem;
+    font-size: 1rem;
+    background: -ms-linear-gradient(#C95656, #8d0606);
+    background: linear-gradient(#C95656, #8d0606);
+}
