@@ -1,5 +1,123 @@
 <section class="page-section">
-  <div class="container">
+  <div style="float: right; display: flex; margin-top:10px;">
+    <div style="width: 100px;">
+      <a href="#" (click)="languaje = 'es'">
+        <img
+          alt="Español"
+          class="flag-style"
+          style="height: 30px;"
+          src="src/assets/flags/flag-mex.svg"
+        />
+        Español
+      </a>
+    </div>
+
+    <div style="width: 100px;">
+      <a href="#" (click)="languaje = 'en'">
+        <img
+          alt="English"
+          class="flag-style"
+          style="height: 30px;"
+          src="src/assets/flags/flag-usa.svg"
+        />
+        English
+      </a>
+    </div>
+  </div>
+
+  <div class="container" *ngIf="languaje === 'en'">
+    <div class="single-row">
+      <img
+        alt="Graja"
+        class="logo-style2"
+        src="src/assets/GRAJAt_Logo_128x128.png"
+      />
+      <h2>Dear mexican worker living in the united states</h2>
+    </div>
+
+    <ul>
+      <li>
+        Do you live in the United States and your family does not have medical
+        services or mexican social security benefits?
+      </li>
+      <li>Are medical services in Mexico very expensive for your relatives?</li>
+      <li>Do you want to continue paying for your pension in Mexico?</li>
+      <li>Do you live abroad and want to take care of your loved ones?</li>
+      <li>
+        Do you want your family in Mexico to have access to mexican social
+        security benefits?
+      </li>
+      <li>
+        Do you want to get a house from INFONAVIT for your family in Mexico?
+      </li>
+      <li>Do you want to increase your savings for retirement in Mexico?</li>
+    </ul>
+
+    <div class="single-row">
+      <img
+        alt="Graja"
+        class="logo-style2"
+        src="src/assets/GRAJAt_Logo_128x128.png"
+      />
+      <h2>GRAJA is the solution</h2>
+    </div>
+
+    Graja is a non-profit society made up of associates, whose characteristic is
+    that they are people who work on their own, and that Integrate to GRAJA will
+    enjoy the benefits of integral social security. Likewise, Graja will promote
+    the services that each associate provides of personal and individual way
+    among the same associates as well as people that are not part of the same
+    asociation.
+
+    <div class="single-row">
+      <img
+        alt="Graja"
+        class="logo-style2"
+        src="src/assets/GRAJAt_Logo_128x128.png"
+      />
+      <h2>Who can join in to Graja?</h2>
+    </div>
+
+    <div id="trabajadores">
+      <img
+        alt="Trabajadores"
+        class="foto-mediana-horizontal"
+        src="src\assets\trabajadores.jpg"
+      />
+    </div>
+    Workers All people who want it, such as:
+    <ul>
+      <li>Cleaning staff</li>
+      <li>Housewives</li>
+      <li>Bakers, taqueros and waiters</li>
+      <li>Seamstresses and dressmakers</li>
+      <li>Stylists, hairdressers and barbers</li>
+      <li>Taxi drivers</li>
+      <li>Vendors and commission agents</li>
+      <li>Independent professionals</li>
+      <li>Plumbers, carpenters and welders</li>
+      <li>Farmers and day laborers</li>
+      <li>Mechanics and turners</li>
+      <li>
+        Anyone who works abroad and cannot prove income in Mexico to have access
+        to Mexican social security benefits.
+      </li>
+
+      <li>Everyone is welcome!!!</li>
+    </ul>
+
+    <div class="single-row">
+      <img
+        alt="Graja"
+        class="logo-style2"
+        src="src/assets/GRAJAt_Logo_128x128.png"
+      />
+
+      <h2>GRAJA helps you to take care of your relatives in Mexico</h2>
+    </div>
+  </div>
+
+  <div class="container" *ngIf="languaje !== 'en'">
     <div class="single-row">
       <img
         alt="Graja"
