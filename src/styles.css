@@ -21,6 +21,11 @@ body {
   height: 50px;
 }
 
+.flag-style {
+  width: 50px;
+  height: 30px;
+}
+
 .single-row {
   display: flex;
   align-items: flex-end;
